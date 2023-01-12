@@ -7,7 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace B1Task1.src
 {
-    public class TextGenerator
+    internal class TextGenerator
     {
         StringRandomizer StringRandomizer = new StringRandomizer();
         public string GenerateString()
